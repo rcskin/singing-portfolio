@@ -1,0 +1,194 @@
+<!--Contact page reusing top elements of home page-->
+
+<!DOCTYPE html>
+
+<html lang="en">
+  <head>
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-GLhlTQ8iRABdZLl6O3oVMWSktQOp6b7In1Zl3/Jr59b6EGGoI1aFkw7cmDA6j6gD"
+      crossorigin="anonymous">
+      <link rel="stylesheet" href="../CSS-and-Photos/index.css" type="text/css">
+    <script src="../JS/indexContact.js"></script>
+    <title>Rachel Skinner</title>
+  </head>
+
+  <body>
+    <div class="container">
+      <div class="row">
+        <div class="col-md-4">
+          <h3>RACHEL SKINNER</h3>
+        </div>
+        <div class="col-md-8">
+          <nav id="topHeading">
+            <a href="index.html">HOME</a>
+            <a href="indexExperience.html">EXPERIENCE</a>
+            <a href="indexVideos.html">VIDEOS</a>
+            <a href="indexContact.html">CONTACT</a>
+            <a href="indexSaved.html">SAVED FOR LATER</a>
+          </nav>
+          <br>
+          <br>
+        </div>
+      </div>
+
+      <div class="row">
+        <div class="col-md-12">
+          <img
+            class="background"
+            src="../CSS-and-Photos/rene-bohmer-YeUVDKZWSZ4-unsplash.jpg"
+            alt="background">
+        </div>
+      </div>
+      <div class="row">
+        <div class="col-md-8">
+          <div>
+            <h5>Choir Contact Information</h5>
+            <table>
+              <tr>
+                <th>Company</th>
+                <th>Website</th>
+                <th>Location</th>
+              </tr>
+              <tr>
+                <td>Celebration Singers</td>
+                <td><em>No website available</em></td>
+                <td>Kelowna, BC</td>
+              </tr>
+              <tr>
+                <td>Wentworth Music Rock Choir</td>
+                <td>
+                  <a class="website" href="www.wentworthmusic.ca"
+                  >www.wentworthmusic.ca</a
+                  >
+                </td>
+                <td>Kelowna,BC</td>
+              </tr>
+              <tr>
+                <td>Groove Engine</td>
+                <td>
+                  <a
+                  class="website"
+                  href="https://www.facebook.com/grooveengineband/"
+                  >www.facebook.com/grooveengineband/</a
+                  >
+                </td>
+                <td>Kelowna,BC</td>
+              </tr>
+              <tr>
+                <td>Singology</td>
+                <td>
+                  <a class="website" href="https://www.singology.com/"
+                  >www.singology.com</a
+                  >
+                </td>
+                <td>London, UK</td>
+              </tr>
+              <tr>
+                <td>West End Musical Choir</td>
+                <td>
+                  <a class="website" href="https://www.westendmusicalchoir.com"
+                  >www.westendmusicalchoir.com</a
+                  >
+                </td>
+                <td>London, UK</td>
+              </tr>
+              <tr>
+                <td>Sing Space Wimbledon Choir</td>
+                <td>
+                  <a class="website" href="https://thesingspace.com/"
+                  >https://thesingspace.com</a>
+                </td>
+                <td>London, UK</td>
+              </tr>
+            </table>
+          </div>
+          <button type="button" id="saveBtn11" class="btn btn-secondary btn-sm">
+            Save for Later!
+          </button>
+          <br>
+        </div>
+        <br>
+        <div class="col-md-5">
+          <h5>My Contact Info</h5>
+          <table>
+            <tr>
+              <td>Email</td>
+              <td>
+                <!--Add email - see source 1-->
+                <a class="email" href="mailto:skinner.rachelc@gmail.com"
+                  >skinner.rachelc@gmail.com</a>
+              </td>
+            </tr>
+            <tr>
+              <td>Instagram</td>
+              <td>@r_skin</td>
+            </tr>
+          </table>
+          <div>
+            <img class="img2" src="../CSS-and-Photos/BOBW1.jpg" alt="performancepic">
+          </div>
+          <button type="button" id="saveBtn12" class="btn btn-secondary btn-sm">
+            Save for Later!
+          </button>
+        </div>
+        
+      </div>
+      <br>
+      <br>
+      <div class="row">
+        <div id="radio" class="col-md-3">
+          <!--adding radio buttons - see source 2-->
+          <h6>Have you ever wanted to join a choir?</h6>
+          <input type="radio" name="ans" value="Yes"> Yes! <br>
+          <input type="radio" name="ans" value="No"> No :( <br>
+        </div>
+        <div id="form" class="col-md-9">
+          <!--Form to allow user to contact me - changed from user subscribing in previous task -->
+          <h6>To contact me, please leave your details below!</h6>
+          <form class="form-horizontal">
+            <div class="form-group row">
+              <label for="inputName" class="col-sm-2 col-form-label"
+                >Name:
+              </label>
+              <div class="col-sm-6">
+                <input
+                  type="text"
+                  class="form-control"
+                  id="inputName"
+                  placeholder="Name">
+              </div>
+            </div>
+            <div class="form-group row">
+              <label for="inputEmail" class="col-sm-2 col-form-label"
+                >Email:
+              </label>
+              <div class="col-sm-6">
+                <input
+                  type="email"
+                  class="form-control"
+                  id="inputEmail"
+                  placeholder="Email">
+                <br>
+                <button type="button" class="btn btn-primary">Submit</button>
+              </div>
+            </div>
+          </form>
+        </div>
+      </div>
+    </div>
+    <br>
+    <br>
+    <footer>
+      <a href="#topHeading">Back to top</a>
+    </footer>
+  </body>
+</html>
+
+<!--Note to reviewer:
+I used Prettier to format my document as recommended by mentors, however once I did this 17 errors were created on the HTML validator regarding 'trailing slashes'
+I then went back and corrected all errors.
+Source 1: https://www.tutorialspoint.com/html/html_email_links.htm
+Source 2: https://www.educative.io/answers/radio-button-in-html
+-->
