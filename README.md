@@ -5,3 +5,5 @@ I made a portfolio project for my singing hobby with my performance and professi
 
 The JS part of the task was to add many 'like' and 'save for later' buttons that had to be functional.
 Aesthetically it is not pleasing with these added task requirements, but it does show what skills I learned from this task.
+
+It also includes comments for my mentor reviewers as part of our submission process of our bootcamp, which explains the process we used, what was used, what was learned, and any sources we used to help us learn the skills and write the code. 
